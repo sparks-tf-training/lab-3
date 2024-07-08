@@ -71,7 +71,7 @@ Add the following code to call a module from a GitHub repository:
 
 ```hcl
 module "github_module" {
-  source = "github.com/sparks-tf-training/blob-storage"
+  source = "github.com/sparks-tf-training/blob-module"
 
   name                = "blobstorage"
   resource_group_name = data.azurerm_resource_group.rg.name
